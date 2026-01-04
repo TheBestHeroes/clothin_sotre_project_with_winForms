@@ -11,16 +11,16 @@ namespace clothin_sotre_project_with_winForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string user = "HW";
-            string pass = "123";
-            string host = "localhost";
-            string port = "1521";
-            string serviceName = "XE"; // „Â„ Ãœ«
+            //string user = "HW";
+            //string pass = "123";
+            //string host = "localhost";
+            //string port = "1521";
+            //string serviceName = "XE"; // „Â„ Ãœ«
 
             
-               string conString =
-    "User Id=HR;Password=Sys;" +
-    "Data Source=localhost:1521/XE;";
+             string conString =
+                                "User Id=HR;Password=Sys;" +
+                                "Data Source=localhost:1521/XE;";
 
 
             // 2. „Õ«Ê·… «·« ’«·
